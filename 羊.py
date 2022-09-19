@@ -1,3 +1,4 @@
+import requests
 def sheep(x,y):
     request_header = {"t":x}
     for i in range(y):
